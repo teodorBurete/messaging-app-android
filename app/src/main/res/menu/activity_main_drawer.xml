@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_menu_inbox"
+            android:icon="@drawable/inbox_icon"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/drawer_menu_sent_messages"
+            android:icon="@drawable/sent_icon"
+            android:title="Sent Messages" />
+        <item
+            android:id="@+id/drawer_menu_profile"
+            android:icon="@drawable/profile_icon"
+            android:title="Profile" />
+        <item
+            android:id="@+id/drawer_menu_contacts"
+            android:icon="@drawable/contacts_icon"
+            android:title="Contacts" />
+        <item
+            android:id="@+id/drawer_menu_blocked"
+            android:icon="@drawable/blocked_icon"
+            android:title="Blocked" />
+    </group>
+</menu>
